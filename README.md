@@ -37,8 +37,10 @@ Some details about the universal tasks for Azure Blob Storage:
   
 The following Universal Task for Azure Blob Storage have been implemented: 
   
-Image 1
-![](Images/Images1.png)
+   Image 1
+      ![](images/image1.png)
+   
+ 
 
 # 4	Installation
 
