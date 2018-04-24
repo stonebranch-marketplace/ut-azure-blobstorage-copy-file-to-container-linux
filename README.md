@@ -1,5 +1,5 @@
 # ut-azure-blobstorage-copy-file-to-container-linux
-# Universal Automation Center support for scheduling Azure Blob Storage cop file to container
+# Universal Automation Center support for scheduling Azure Blob Storage copy file to container
 # Abstract:
 
 The here described Universal Tasks allow to Transfer and retrieve files from Azure Blob Storage in the Cloud. As a result, you can integrate any Azure Blob Storage file transfers into you existing or new scheduling workflows, providing a true hybrid cloud (on-premise and cloud computer) file transfer solution.
