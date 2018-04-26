@@ -140,6 +140,7 @@ Image7
 Image8
 
 ![](images/Images8.PNG)
+![](images/Images8a.PNG)
 
 # 6.2	Monitor_blob_in_container
 
