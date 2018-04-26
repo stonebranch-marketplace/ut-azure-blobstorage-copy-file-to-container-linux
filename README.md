@@ -46,30 +46,30 @@ The following Universal Task for Azure Blob Storage have been implemented:
 # 4.1 Software Requirements
 
 **Universal Task name:** ut-azure-blobstorage-copy-file-to-containe-linux
+
 **Related UAC XML Files for template and task:** Github repository
+
 **Software used:** 
+
 
 For the set-up you need:
 
-1.  	Python 2.7.x (or 3.6.x) for Linux installed on a server where a Universal Agent is installed. 
-2.  	For Python the following modules are required: 
-      -  Re, to support regular expression matching operations 
-      -  glob, to find Unix pathnames matching a specified pattern
-      -  os, to support operating system dependent commands
-      -  sys, for output re-direct processing 
-      -  datetime, date and time stamps for messages
-      -  logging, to provide logging capabilities for debug, info etc.
-      -  argparse, to allow testing of the Universal TPL. script on the command line
-      -  azure-storage-blob, The Azure libraries for Python to use Azure services and manage Azure resources
-      -  azure-storage-logging, provide enhanced logging for Azure storage services
-
-Note: Only the module azure-storage-blob and azure-storage-logging need to be added to python 3.6.x. e.g. using pip.
-
--	pip install azure-storage-blob
--	pip install azure-storage-logging
-3.  	Universal Controller 6.4.5.x or higher
-4.  	Universal Agent 6.4.2.2 or higher installed on a Linux Server
-5.  	An Azure account to try it out
+1. Python 2.7.x (or 3.6.x) for Linux installed on a server where a Universal Agent is installed. 
+2. For Python the following modules are required: 
+	- Re, to support regular expression matching operations
+	- glob, to find Unix pathnames matching a specified pattern
+	- os, to support operating system dependent commands
+	- sys, for output re-direct processing
+	- datetime, date and time stamps for messages
+	- logging, to provide logging capabilities for debug, info etc.
+	- argparse, to allow testing of the Universal TPL. script on the command line
+	- azure-storage-blob, The Azure libraries for Python to use Azure services and manage Azure resources
+	- azure-storage-logging, provide enhanced logging for Azure storage services. Note: Only the module azure-storage-blob and azure-storage-logging need to be added to python 3.6.x. e.g. using pip.
+	- pip install azure-storage-blob
+	- pip install azure-storage-logging
+3. Universal Controller 6.4.5.x or higher
+4. Universal Agent 6.4.2.2 or higher installed on a Linux Server
+5. An Azure account to try it out
 
 # 4.2	Installation Steps
 The following describes the installation steps:
@@ -77,9 +77,7 @@ The following describes the installation steps:
 **1.	Install Python 2.7.x or 3.6.x for Linux on the Universal Controller server or any Linux Server running a Universal Agent.**
 Official Download link: 17TUhttps://www.python.org/downloads/U17T
 
-Note: 
-
-In most cases python is already available on Linux. Check availability with: python -V
+Note: In most cases python is already available on Linux. Check availability with: python -V
 
 **2.	17TAdd the azure-storage-blob and azure-storage-logging modules to your python installation**
 
@@ -140,6 +138,7 @@ Image7
 Image8
 
 ![](images/Images8.PNG)
+
 
 # 6.2	Monitor_blob_in_container
 
